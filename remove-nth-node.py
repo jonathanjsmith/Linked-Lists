@@ -35,8 +35,10 @@ def removeNthFromEnd(head, n):
     
     return head
 
-# input: [1, 2, 3, 4, 5], n = 2
-# output: [1, 2, 3, 5]
+"""
+Time: O(n)
+Space: O(1)
+"""
 
 list_1 = p = Node(0)
 for i in range(1, 6):
