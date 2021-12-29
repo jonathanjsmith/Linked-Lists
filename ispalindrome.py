@@ -12,7 +12,7 @@ class Node:
 # return the second half of the list after middle node
 def getSecondHalf(head):
     slow = fast = head
-    while fast.next and fast.next.next:
+    while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
     return slow
