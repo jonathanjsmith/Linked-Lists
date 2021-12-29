@@ -40,7 +40,11 @@ def addTwoNumbers(l1, l2):
         
     return dummy.next
 
-# main
+"""
+Time: O(n + m)
+Space: O(1)
+"""
+
 list_1 = p = Node(0)
 list_2 = q = Node(0)
 
