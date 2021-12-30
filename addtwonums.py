@@ -41,8 +41,8 @@ def addTwoNumbers(l1, l2):
     return dummy.next
 
 """
-Time: O(n + m)
-Space: O(1)
+Time: O(max(n + m))
+Space: O(max(n + m))
 """
 
 list_1 = p = Node(0)
